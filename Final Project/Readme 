@@ -1,0 +1,32 @@
+To compile this program, use javac *.java
+To run the program, type java SlidePuzzle
+
+The program works by clicking on the desired tile in order to move the empty tile.
+The goal of the puzzle is to order the tiles from one to fifteen, with the empty tile in the bottom right corner.
+If you get stuck, you can click the hint button and a hint may appear in the console.
+Note that since there are so many possible ways of solving the puzzle, if you click the hint button before you have only 4 or so tiles left to put into place, 
+you will not get a hint. Instead, the program will print in the console that you should keep trying to solve the puzzle because the breadth first search 
+takes a long time to run since there are many possible moves to finish the puzzle.
+
+If you wish to stop playing, you can exit the window by clicking the X in the upper right corner.
+If you solve the puzzle, you will get a congratulations message, and a message on the screen telling you how many moves it took you to complete the puzzle.
+Once you see this message, you can click anywhere on the window to play again, and the puzzle will automatically reset to a new random configuration.
+When this happens, your number of moves also resets to zero.
+
+We hope you enjoy our game!
+
+Sources:
+https://stackoverflow.com/questions/12396066/how-to-get-location-of-a-mouse-click-relative-to-a-swing-window
+https://stackoverflow.com/questions/14823425/how-to-implement-a-mouselistener
+https://www.geeksforgeeks.org/mouselistener-mousemotionlistener-java/
+https://www.geeksforgeeks.org/check-instance-15-puzzle-solvable/
+https://stackoverflow.com/questions/16431455/addmouselistener-for-a-jpanel
+https://stackoverflow.com/questions/3383887/how-to-record-the-number-of-mouse-clicks
+https://stackoverflow.com/questions/15544549/how-does-paintcomponent-work
+http://www.java2s.com/Code/JavaAPI/java.awt/GraphicsdrawStringStringstrintxinty.htm
+https://docs.oracle.com/javase/7/docs/api/java/awt/geom/RoundRectangle2D.html
+https://stackoverflow.com/questions/16761630/font-createfont-set-color-and-size-java-awt-font
+https://www.instructables.com/id/How-To-Solve-The-15-Puzzle/
+https://www.ntu.edu.sg/home/ehchua/programming/java/J4b_CustomGraphics.html
+https://stackoverflow.com/questions/30177357/adding-buttons-into-a-java-game
+https://rosettacode.org/wiki/15_Puzzle_Game#Java (Used Strictly for board design) 
