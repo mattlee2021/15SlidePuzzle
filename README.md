@@ -1,2 +1,2 @@
 # 15SlidePuzzle
- 15-Puzzle with BFS Algo
+Check Out the Readme in the Final Project Folder
