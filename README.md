@@ -1,2 +1,1 @@
-# 15SlidePuzzle
-Check Out the Readme in the Final Project Folder
+This project was my final project for intro CS 
